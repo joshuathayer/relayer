@@ -1,3 +1,15 @@
 relayer - a simple audio delay
 
-Go Giants!
+Joe Buck and the FOX announcers are awful, and the KNBR radio guys are
+great. FOX's 45 second delay makes it almost impossible to listen to the 
+radio while watching the TV, however. So, this small hack to buffer some
+seconds of audio.
+
+The window being buffered is adjustable while running using the 'a' and 
+'z' keys. 'a' will increase the amount being buffered, 'z' will decrease.
+
+Playback seems to be a bit choppy sometimes. And my AM radio sucks.
+
+REQUIREMENTS
+
+relayer requires Audio::PortAudio, which requires libportaudio2. 
